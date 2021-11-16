@@ -28,7 +28,6 @@ There are additional files needed in training, pre-training is optional:
 1. image2vec_fc7.txt: image feature vector, pre-trained by AlexNet (fc7 layer)
 2. (optional) entity2vec.unif / relation2vec.unif: entity & relation vector, pre-trained by TransE
 3. (optional) image_mat.unif: image projection matrix, pre-trained by IKRL (AVG)
-4. 
 
 For image2vec_fc7.txt, it is a file that contains the image feature vectors of all images learned by AlexNet (or other models). Due to its large size, we do not release our features. However, it is very easy to use other visual features learned by updated visual encoders and images.
 
