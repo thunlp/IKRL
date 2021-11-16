@@ -30,9 +30,12 @@ There are additional files needed in training, pre-training is optional:
 3. (optional) image_mat.unif: image projection matrix, pre-trained by IKRL (AVG)
 
 For image2vec_fc7.txt, it is a file that contains the image feature vectors of all images learned by AlexNet (or other models).
+
 Step1. Collect (multiple) images for different entities.
+
 Step2. Learn image feature vectors for all images by AlexNet (or other models). We use the last hidden embedding (fc7 layer) as image features.
 Please refer to the original paper for more details.
+
 Ruobing Xie, Zhiyuan Liu, Huanbo Luan, Maosong Sun. Image-embodied Knowledge Representation Learning. The 26th International Joint Conference on Artificial Intelligence (IJCAI'17).
 
 
